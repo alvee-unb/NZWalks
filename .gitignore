@@ -1,0 +1,13 @@
+# User-specific files and IDE folders
+.vs/
+.vscode/
+*.suo
+*.user
+
+# Build outputs
+bin/
+obj/
+
+# Sensitive data and secrets
+appsettings.Development.json
+*.secrets.json
