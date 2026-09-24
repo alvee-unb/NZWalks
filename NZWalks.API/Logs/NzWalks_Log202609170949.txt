@@ -1,0 +1,10 @@
+2026-09-17 09:49:44.049 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/api/Regions - null null
+2026-09-17 09:49:44.055 -03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.RegionsController.GetAll (NZWalks.API)'
+2026-09-17 09:49:44.085 -03:00 [INF] Route matched with {action = "GetAll", controller = "Regions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller NZWalks.API.Controllers.RegionsController (NZWalks.API).
+2026-09-17 09:49:44.098 -03:00 [ERR] This is a custom exception! >_<
+System.Exception: This is a custom exception! >_<
+   at NZWalks.API.Controllers.RegionsController.GetAll() in D:\Projects\Tutorial_Resources\ASP.NET Core Web API Entity Framework Auth .NET8\NZWalks\NZWalks\NZWalks.API\Controllers\RegionsController.cs:line 41
+2026-09-17 09:49:44.101 -03:00 [INF] Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2026-09-17 09:49:44.102 -03:00 [INF] Executed action NZWalks.API.Controllers.RegionsController.GetAll (NZWalks.API) in 14.4733ms
+2026-09-17 09:49:44.103 -03:00 [INF] Executed endpoint 'NZWalks.API.Controllers.RegionsController.GetAll (NZWalks.API)'
+2026-09-17 09:49:44.104 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/api/Regions - 400 null application/problem+json; charset=utf-8 55.4558ms

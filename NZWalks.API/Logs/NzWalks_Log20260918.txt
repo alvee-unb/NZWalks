@@ -1,0 +1,108 @@
+2026-09-18 17:45:55.269 -03:00 [INF] User profile is available. Using 'C:\Users\Iceborn\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-18 17:45:55.375 -03:00 [INF] Now listening on: https://localhost:7081
+2026-09-18 17:45:55.376 -03:00 [INF] Now listening on: http://localhost:5292
+2026-09-18 17:45:55.428 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-18 17:45:55.429 -03:00 [INF] Hosting environment: Development
+2026-09-18 17:45:55.430 -03:00 [INF] Content root path: D:\Projects\Tutorial_Resources\ASP.NET Core Web API Entity Framework Auth .NET8\NZWalks\NZWalks\NZWalks.API
+2026-09-18 17:45:55.894 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/swagger - null null
+2026-09-18 17:45:55.953 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/swagger - 301 0 null 65.4162ms
+2026-09-18 17:45:55.957 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/swagger/index.html - null null
+2026-09-18 17:45:55.995 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/swagger/index.html - 200 null text/html;charset=utf-8 38.0663ms
+2026-09-18 17:45:56.013 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/_vs/browserLink - null null
+2026-09-18 17:45:56.013 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/_framework/aspnetcore-browser-refresh.js - null null
+2026-09-18 17:45:56.020 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 7.765ms
+2026-09-18 17:45:56.036 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/_vs/browserLink - 200 null text/javascript; charset=UTF-8 23.1561ms
+2026-09-18 17:45:56.094 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/swagger/v1/swagger.json - null null
+2026-09-18 17:45:56.105 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.1346ms
+2026-09-18 17:47:09.104 -03:00 [INF] User profile is available. Using 'C:\Users\Iceborn\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-18 17:47:09.206 -03:00 [INF] Now listening on: https://localhost:7081
+2026-09-18 17:47:09.208 -03:00 [INF] Now listening on: http://localhost:5292
+2026-09-18 17:47:09.259 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-18 17:47:09.260 -03:00 [INF] Hosting environment: Development
+2026-09-18 17:47:09.261 -03:00 [INF] Content root path: D:\Projects\Tutorial_Resources\ASP.NET Core Web API Entity Framework Auth .NET8\NZWalks\NZWalks\NZWalks.API
+2026-09-18 17:47:09.639 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/swagger/index.html - null null
+2026-09-18 17:47:09.747 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/swagger/index.html - 200 null text/html;charset=utf-8 112.7945ms
+2026-09-18 17:47:09.751 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/_framework/aspnetcore-browser-refresh.js - null null
+2026-09-18 17:47:09.756 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.0256ms
+2026-09-18 17:47:09.766 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/_vs/browserLink - null null
+2026-09-18 17:47:09.791 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/_vs/browserLink - 200 null text/javascript; charset=UTF-8 25.5175ms
+2026-09-18 17:47:09.841 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/swagger/v1/swagger.json - null null
+2026-09-18 17:47:09.854 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.9944ms
+2026-09-18 17:47:16.877 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/api/Regions - null null
+2026-09-18 17:47:17.312 -03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.RegionsController.GetAll (NZWalks.API)'
+2026-09-18 17:47:17.324 -03:00 [INF] Route matched with {action = "GetAll", controller = "Regions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller NZWalks.API.Controllers.RegionsController (NZWalks.API).
+2026-09-18 17:47:17.531 -03:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-09-18 17:47:18.326 -03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Code], [r].[Name], [r].[RegionImageUrl]
+FROM [Regions] AS [r]
+2026-09-18 17:47:18.367 -03:00 [INF] Finished GetAllRegions request with data: [{"Id":"906cb139-415a-4bbb-a174-1a1faf9fb1f6","Code":"NSN","Name":"Nelson","RegionImageUrl":"https://images.pexels.com/photos/13918194/pexels-photo-13918194.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1260\u0026h=750\u0026dpr=1"},{"Id":"14ceba71-4b51-4777-9b17-46602cf66153","Code":"BOP","Name":"Bay Of Plenty","RegionImageUrl":null},{"Id":"6884f7d7-ad1f-4101-8df3-7a6fa7387d81","Code":"NTL","Name":"Northland","RegionImageUrl":null},{"Id":"f077a22e-4248-4bf6-b564-c7cf4e250263","Code":"STL","Name":"Southland","RegionImageUrl":null},{"Id":"cfa06ed2-bf65-4b65-93ed-c9d286ddb0de","Code":"WGN","Name":"Wellington","RegionImageUrl":"https://images.pexels.com/photos/4350631/pexels-photo-4350631.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1260\u0026h=750\u0026dpr=1"}]
+2026-09-18 17:47:18.374 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NZWalks.API.Models.DTO.RegionDto, NZWalks.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-09-18 17:47:18.380 -03:00 [INF] Executed action NZWalks.API.Controllers.RegionsController.GetAll (NZWalks.API) in 1050.976ms
+2026-09-18 17:47:18.381 -03:00 [INF] Executed endpoint 'NZWalks.API.Controllers.RegionsController.GetAll (NZWalks.API)'
+2026-09-18 17:47:18.388 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/api/Regions - 200 null application/json; charset=utf-8 1511.0405ms
+2026-09-18 18:02:16.246 -03:00 [INF] User profile is available. Using 'C:\Users\Iceborn\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-18 18:02:16.354 -03:00 [INF] Now listening on: https://localhost:7081
+2026-09-18 18:02:16.355 -03:00 [INF] Now listening on: http://localhost:5292
+2026-09-18 18:02:16.415 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-18 18:02:16.416 -03:00 [INF] Hosting environment: Development
+2026-09-18 18:02:16.417 -03:00 [INF] Content root path: D:\Projects\Tutorial_Resources\ASP.NET Core Web API Entity Framework Auth .NET8\NZWalks\NZWalks\NZWalks.API
+2026-09-18 18:02:16.751 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/swagger/index.html - null null
+2026-09-18 18:02:16.864 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/swagger/index.html - 200 null text/html;charset=utf-8 118.9342ms
+2026-09-18 18:02:16.866 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/_framework/aspnetcore-browser-refresh.js - null null
+2026-09-18 18:02:16.875 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 8.1925ms
+2026-09-18 18:02:16.881 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/_vs/browserLink - null null
+2026-09-18 18:02:16.902 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.2617ms
+2026-09-18 18:02:16.948 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/swagger/v1/swagger.json - null null
+2026-09-18 18:02:16.959 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.0818ms
+2026-09-18 18:07:43.391 -03:00 [INF] User profile is available. Using 'C:\Users\Iceborn\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-18 18:07:43.504 -03:00 [INF] Now listening on: https://localhost:7081
+2026-09-18 18:07:43.505 -03:00 [INF] Now listening on: http://localhost:5292
+2026-09-18 18:07:43.617 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-18 18:07:43.617 -03:00 [INF] Hosting environment: Development
+2026-09-18 18:07:43.618 -03:00 [INF] Content root path: D:\Projects\Tutorial_Resources\ASP.NET Core Web API Entity Framework Auth .NET8\NZWalks\NZWalks\NZWalks.API
+2026-09-18 18:07:44.197 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/swagger/index.html - null null
+2026-09-18 18:07:44.304 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/swagger/index.html - 200 null text/html;charset=utf-8 111.8566ms
+2026-09-18 18:07:44.307 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/_framework/aspnetcore-browser-refresh.js - null null
+2026-09-18 18:07:44.313 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.1669ms
+2026-09-18 18:07:44.324 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/_vs/browserLink - null null
+2026-09-18 18:07:44.346 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.7361ms
+2026-09-18 18:07:44.406 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/swagger/v1/swagger.json - null null
+2026-09-18 18:07:44.419 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.188ms
+2026-09-18 18:07:55.465 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7081/api/regions - null null
+2026-09-18 18:07:55.491 -03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.RegionsController.GetAll (NZWalks.API)'
+2026-09-18 18:07:55.502 -03:00 [INF] Route matched with {action = "GetAll", controller = "Regions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller NZWalks.API.Controllers.RegionsController (NZWalks.API).
+2026-09-18 18:07:55.604 -03:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-09-18 18:07:56.055 -03:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Code], [r].[Name], [r].[RegionImageUrl]
+FROM [Regions] AS [r]
+2026-09-18 18:07:56.095 -03:00 [INF] Finished GetAllRegions request with data: [{"Id":"906cb139-415a-4bbb-a174-1a1faf9fb1f6","Code":"NSN","Name":"Nelson","RegionImageUrl":"https://images.pexels.com/photos/13918194/pexels-photo-13918194.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1260\u0026h=750\u0026dpr=1"},{"Id":"14ceba71-4b51-4777-9b17-46602cf66153","Code":"BOP","Name":"Bay Of Plenty","RegionImageUrl":null},{"Id":"6884f7d7-ad1f-4101-8df3-7a6fa7387d81","Code":"NTL","Name":"Northland","RegionImageUrl":null},{"Id":"f077a22e-4248-4bf6-b564-c7cf4e250263","Code":"STL","Name":"Southland","RegionImageUrl":null},{"Id":"cfa06ed2-bf65-4b65-93ed-c9d286ddb0de","Code":"WGN","Name":"Wellington","RegionImageUrl":"https://images.pexels.com/photos/4350631/pexels-photo-4350631.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1260\u0026h=750\u0026dpr=1"}]
+2026-09-18 18:07:56.101 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NZWalks.API.Models.DTO.RegionDto, NZWalks.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-09-18 18:07:56.108 -03:00 [INF] Executed action NZWalks.API.Controllers.RegionsController.GetAll (NZWalks.API) in 602.8307ms
+2026-09-18 18:07:56.110 -03:00 [INF] Executed endpoint 'NZWalks.API.Controllers.RegionsController.GetAll (NZWalks.API)'
+2026-09-18 18:07:56.114 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7081/api/regions - 200 null application/json; charset=utf-8 650.0795ms
+2026-09-18 18:09:37.969 -03:00 [INF] User profile is available. Using 'C:\Users\Iceborn\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-09-18 18:09:38.076 -03:00 [INF] Now listening on: https://localhost:7081
+2026-09-18 18:09:38.077 -03:00 [INF] Now listening on: http://localhost:5292
+2026-09-18 18:09:38.184 -03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-09-18 18:09:38.185 -03:00 [INF] Hosting environment: Development
+2026-09-18 18:09:38.186 -03:00 [INF] Content root path: D:\Projects\Tutorial_Resources\ASP.NET Core Web API Entity Framework Auth .NET8\NZWalks\NZWalks\NZWalks.API
+2026-09-18 18:09:38.555 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/swagger/index.html - null null
+2026-09-18 18:09:38.649 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/swagger/index.html - 200 null text/html;charset=utf-8 99.7436ms
+2026-09-18 18:09:38.655 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/_framework/aspnetcore-browser-refresh.js - null null
+2026-09-18 18:09:38.661 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/_framework/aspnetcore-browser-refresh.js - 200 13758 application/javascript; charset=utf-8 5.8633ms
+2026-09-18 18:09:38.665 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/_vs/browserLink - null null
+2026-09-18 18:09:38.686 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/_vs/browserLink - 200 null text/javascript; charset=UTF-8 21.2569ms
+2026-09-18 18:09:38.724 -03:00 [INF] Request starting HTTP/2 GET https://localhost:7081/swagger/v1/swagger.json - null null
+2026-09-18 18:09:38.734 -03:00 [INF] Request finished HTTP/2 GET https://localhost:7081/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 9.4483ms
+2026-09-18 18:09:42.743 -03:00 [INF] Request starting HTTP/1.1 GET https://localhost:7081/api/regions - null null
+2026-09-18 18:09:42.768 -03:00 [INF] Executing endpoint 'NZWalks.API.Controllers.RegionsController.GetAll (NZWalks.API)'
+2026-09-18 18:09:42.780 -03:00 [INF] Route matched with {action = "GetAll", controller = "Regions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll() on controller NZWalks.API.Controllers.RegionsController (NZWalks.API).
+2026-09-18 18:09:42.880 -03:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-09-18 18:09:43.327 -03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Code], [r].[Name], [r].[RegionImageUrl]
+FROM [Regions] AS [r]
+2026-09-18 18:09:43.367 -03:00 [INF] Finished GetAllRegions request with data: [{"Id":"906cb139-415a-4bbb-a174-1a1faf9fb1f6","Code":"NSN","Name":"Nelson","RegionImageUrl":"https://images.pexels.com/photos/13918194/pexels-photo-13918194.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1260\u0026h=750\u0026dpr=1"},{"Id":"14ceba71-4b51-4777-9b17-46602cf66153","Code":"BOP","Name":"Bay Of Plenty","RegionImageUrl":null},{"Id":"6884f7d7-ad1f-4101-8df3-7a6fa7387d81","Code":"NTL","Name":"Northland","RegionImageUrl":null},{"Id":"f077a22e-4248-4bf6-b564-c7cf4e250263","Code":"STL","Name":"Southland","RegionImageUrl":null},{"Id":"cfa06ed2-bf65-4b65-93ed-c9d286ddb0de","Code":"WGN","Name":"Wellington","RegionImageUrl":"https://images.pexels.com/photos/4350631/pexels-photo-4350631.jpeg?auto=compress\u0026cs=tinysrgb\u0026w=1260\u0026h=750\u0026dpr=1"}]
+2026-09-18 18:09:43.374 -03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NZWalks.API.Models.DTO.RegionDto, NZWalks.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-09-18 18:09:43.381 -03:00 [INF] Executed action NZWalks.API.Controllers.RegionsController.GetAll (NZWalks.API) in 598.2017ms
+2026-09-18 18:09:43.383 -03:00 [INF] Executed endpoint 'NZWalks.API.Controllers.RegionsController.GetAll (NZWalks.API)'
+2026-09-18 18:09:43.387 -03:00 [INF] Request finished HTTP/1.1 GET https://localhost:7081/api/regions - 200 null application/json; charset=utf-8 644.4379ms
